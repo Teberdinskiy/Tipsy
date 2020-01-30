@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "Enter bill total"; ObjectID = "6y6-ti-PYG"; */
+"6y6-ti-PYG.text" = "Enter bill total";
+
+/* Class = "UILabel"; text = "Total per person"; ObjectID = "AFQ-tv-JkS"; */
+"AFQ-tv-JkS.text" = "Total per person";
+
+/* Class = "UILabel"; text = "Сплит между 2 людьми, с 10% чаевых."; ObjectID = "LA6-PX-aMm"; */
+"LA6-PX-aMm.text" = "Сплит между 2 людьми, с 10% чаевых.";
+
+/* Class = "UILabel"; text = "56.32"; ObjectID = "Sog-Zw-tLB"; */
+"Sog-Zw-tLB.text" = "56.32";
+
+/* Class = "UILabel"; text = "Select tip"; ObjectID = "Vnj-HN-4MK"; */
+"Vnj-HN-4MK.text" = "Select tip";
+
+/* Class = "UILabel"; text = "Choose Split"; ObjectID = "WFz-iP-Rtp"; */
+"WFz-iP-Rtp.text" = "Choose Split";
+
+/* Class = "UIButton"; normalTitle = "10%"; ObjectID = "Xrl-CX-pXF"; */
+"Xrl-CX-pXF.normalTitle" = "10%";
+
+/* Class = "UIButton"; normalTitle = "Recalculate"; ObjectID = "cV4-fb-9Ce"; */
+"cV4-fb-9Ce.normalTitle" = "Recalculate";
+
+/* Class = "UIButton"; normalTitle = "0%"; ObjectID = "kRk-v6-zeG"; */
+"kRk-v6-zeG.normalTitle" = "0%";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "pGI-cG-584"; */
+"pGI-cG-584.text" = "2";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "rpa-Fd-pjy"; */
+"rpa-Fd-pjy.normalTitle" = "Calculate";
+
+/* Class = "UIButton"; normalTitle = "20%"; ObjectID = "xnb-2L-ya6"; */
+"xnb-2L-ya6.normalTitle" = "20%";
+
+/* Class = "UITextField"; placeholder = "e.g. 123.56"; ObjectID = "zAE-Xh-YR4"; */
+"zAE-Xh-YR4.placeholder" = "e.g. 123.56";
