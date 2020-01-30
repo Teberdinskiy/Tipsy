@@ -17,6 +17,7 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var splitNumberLabel: UILabel!
     
     var tip = 0.10
+    var numberOfPeople = 2
     
     
     @IBAction func tipChanged(_ sender: UIButton) {
@@ -27,20 +28,23 @@ class CalculatorViewController: UIViewController {
         
         let buttonTitle = sender.currentTitle!
         
-        // Удаляем последний символ (%) из заголовка, затем превращаем его обратно в строку.
+        // Remove the last character (%) from the header.
         let buttonTitleMinusPercentSign = String(buttonTitle.dropLast())
         let buttonTitleAsANumber = Double(buttonTitleMinusPercentSign)!
         
-        // Разделите процент, выраженный из 100, в десятичную, например, 10 становится 0,1
+        // Divide the percentage, expressed from 100, in decimal
         tip = buttonTitleAsANumber / 100
     }
     
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
-        
+        // Format the resulting step value by rounding to an integer.
+        splitNumberLabel.text = String(format: "%.0f", sender.value)
+        // Set the stepper value as an  whole number
+        numberOfPeople = Int(sender.value)
     }
     
     @IBAction func calculatePressed(_ sender: UIButton) {
-        print(tip)
+        print(numberOfPeople)
     }
     
 }
